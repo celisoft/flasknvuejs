@@ -1,0 +1,13 @@
+(% extends "base.html" %)
+
+(% block body %)
+<h2>Tests</h2>
+<div id="content">
+    <ul>
+        <li>product={{product}}</li>
+        <li>product + '?'={{product + '?'}}</li>
+        <li>firstName + " " + lastName={{firstName + " " + lastName}}</li>
+        <li>message.split(' ').reverse().join(' ') = {{message.split(' ').reverse().join(' ')}}</li>
+    </ul>
+</div>
+(% endblock %)
