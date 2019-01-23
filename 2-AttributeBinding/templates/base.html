@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test VueJS</title>
+    <link rel="stylesheet" type="text/css" href="((url_for('static', filename='style.css')))">
+</head>
+<div id="app">
+    (% block body %)(% endblock %)
+</div>
+<!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="((url_for('static', filename='main.js')))"></script>
+</html>

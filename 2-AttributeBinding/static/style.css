@@ -1,0 +1,10 @@
+img {
+    width: 80px;
+}
+
+div.product {
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted;
+    width: 20%;
+}

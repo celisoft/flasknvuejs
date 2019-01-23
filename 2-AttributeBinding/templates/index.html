@@ -1,0 +1,14 @@
+(% extends "base.html" %)
+
+(% block body %)
+<h2>Tests</h2>
+<div id="content">
+    <div class="product">
+        <h3>{{product.toUpperCase()}}</h3>
+        <div class="product_image">
+            <img v-bind:src="product_image_dir + product_color + '_' + product + '.png'"
+                 v-bind:alt="product_image_alt + product"/>
+        </div>
+    </div>
+</div>
+(% endblock %)
